@@ -7,8 +7,7 @@ Downloaded from nodejs.org and verified with node -v.
 
 Installed Expo CLI:
 
-bash
-Copy
+
 Edit
 npm install -g expo-cli
 Installed VS Code:
@@ -19,15 +18,13 @@ Downloaded Expo Go app on my Android device from Expo Go.
 
 Created New Expo Project:
 
-bash
-Copy
+
 Edit
 npx create-expo-app@latest prodev-mobile-app-0x01
 cd prodev-mobile-app-0x01
 Started the Project:
 
-bash
-Copy
+
 Edit
 npx expo start
 Scanned the QR code using Expo Go on my device.
@@ -52,8 +49,7 @@ Waited a few extra minutes for dependencies to finish installing.
 3. Project Scaffolding and File Structure
 Default structure after running npx create-expo-app@latest:
 
-go
-Copy
+
 Edit
 prodev-mobile-app-0x01/
 ├── app/
@@ -79,8 +75,7 @@ app.json – Expo config
 4. Effects of Running reset-project
 Command run:
 
-bash
-Copy
+
 Edit
 npm run reset-project
 Observations:
