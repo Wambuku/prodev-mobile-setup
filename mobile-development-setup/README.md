@@ -1,54 +1,50 @@
-Mobile App Development Setup – Expo + React Native + TypeScript + NativeWindCSS
-Welcome! This repository documents the setup and initial steps for building modern, cross-platform mobile apps using Expo, React Native, TypeScript, and NativeWindCSS.
-This stack enables fast, efficient, and visually consistent development for both iOS and Android with a single codebase.
+# Welcome to your Expo app 👋
 
-🚀 Tech Stack Overview
-React Native: Cross-platform mobile development using React components.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Expo: Simplifies native builds, OTA updates, and device testing.
+## Get started
 
-TypeScript: Adds type safety and improved tooling to JavaScript.
+1. Install dependencies
 
-NativeWindCSS: Utility-first styling for React Native, inspired by TailwindCSS.
+   ```bash
+   npm install
+   ```
 
-Expo Go: Instantly run and preview apps on your mobile device.
+2. Start the app
 
-### 1️⃣ Environment Setup
+   ```bash
+   npx expo start
+   ```
 
-#### Prerequisites
-- **Node.js (v16+)**: [Download Node.js](https://nodejs.org/)
-- **VS Code (Recommended IDE)**: [Download VS Code](https://code.visualstudio.com/)
-- **Expo CLI**: Install globally using the following command:
-    ```bash
-    npm install -g expo-cli
-    ```
+In the output, you'll find options to open the app in a
 
-Expo Go App:
-[Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) (Android)
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-[Apple App Store](https://apps.apple.com/app/expo-go/id982107779) (iOS)
-Google Play Store (Android)
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-Apple App Store (iOS)
+## Get a fresh project
 
-### Create a New Expo Project
-To create a new Expo project, run the following commands:
-
-```bash
-npx create-expo-app@latest prodev-mobile-app-0x01
-cd prodev-mobile-app-0x01
-```
-
-### Start the Project
-Start the development server and preview your app:
-
-```bash
-npx expo start
-```
-
-### Reset the Project
-If you need to reset the project, use the following command:
+When you're ready, run:
 
 ```bash
 npm run reset-project
 ```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
